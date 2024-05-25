@@ -1,14 +1,7 @@
-{% load static %}
+{% extends "layout.html" %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <title>Django Prototype</title>
-</head>
-<body>
-    <h1>Home Page</h1>
-</body>
-</html>
+{% block content %} 
+ <h1 class="text-xl">
+    Home 
+ </h1>
+{% endblock content %} 
